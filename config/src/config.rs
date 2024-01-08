@@ -2,6 +2,9 @@ use dotenv::dotenv;
 use lazy_static::lazy_static;
 use std::env;
 
+extern crate lazy_static;
+extern crate dotenv;
+
 pub struct AppConfig {
     pub db_name: String,
     pub db_port: String,

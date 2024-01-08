@@ -1,0 +1,11 @@
+[package]
+name = "config"
+version = "0.0.1"
+
+[lib]
+name = "config"
+path = "src/config.rs"
+
+[dependencies]
+lazy_static = "1.4.0"
+dotenv = "0.15.0"

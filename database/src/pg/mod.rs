@@ -1,5 +1,6 @@
 use tokio_postgres::{Error, NoTls};
-use crate::postgre_module::config::{APP_CONFIG, PARAMS};
+use config::PARAMS;
+
 
 pub async fn migration_user() -> Result<(), Error> {
     
